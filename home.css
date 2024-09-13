@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #555;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    transition: 0.5s;
+}
+ul a.active{
+    color: orange;
+}
+ul a:hover{
+    color: orange;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    height: 100px;
+    color: #333;
+}
+.note{
+    background-color: #444;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.left{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.check{
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    padding: 1px;
+}
+.check i{
+    color: white;
+}
+.checked{
+    background-color: #555;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    padding: 1px;
+}
+.note b{
+    color: white;
+}
+.note span{
+    color: #999;
+}
+.addNote{
+    margin: 130px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add{
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+form{
+    height: 300px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    display: none;
+}
+.handle{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #444;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 1px;
+    gap: 30px;
+}
+.con{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+input{
+    padding: 10px 20px;
+    width: 50%;
+}
+form button{
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.delete{
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
